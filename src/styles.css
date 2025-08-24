@@ -1,0 +1,22 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 20px;
+}
+.app.light {
+  --bg: #ffffff;
+  --text: #000000;
+}
+.app.dark {
+  --bg: #1e1e1e;
+  --text: #ffffff;
+}
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
